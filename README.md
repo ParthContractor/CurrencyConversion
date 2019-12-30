@@ -3,7 +3,7 @@
 A description of this package.
 This swift package is created is for the demo/POC purpose.Total 3 APIs/methods are exposed for different use depending upon the forex application requirement. Under the hood API being used to get all data.
 https://api.myjson.com/bins/100fjy 
-*List of exposed methods as below mentioned.
+* List of exposed methods as below mentioned.
 * getAvailableCurrencies
   * This  is useful to fetch all required data for forex functionality to work. This returns array of custom model  'Currency'. All required data including Currency name, country name, currency code, sell/buy rate and last updated timing is available in shot.
   *This is Async API and the completition handler provides required result i.e   [Currency]-array of all available currency.
